@@ -1,0 +1,11 @@
+{
+  "hooksTemplate": "test"
+, "hooksBind": "*"
+, "hooksPort": "443"
+, "hooksWebroot": "/tmp"
+, "hooksPreEnable": "touch /tmp/le-challenge-hooks-test/pre"
+, "hooksEnable": "touch /tmp/le-challenge-hooks-test/enabled"
+, "hooksPreReload": "touch /tmp/le-challenge-hooks-test/checked"
+, "hooksReload": "touch /tmp/le-challenge-hooks-test/reloaded"
+, "hooksDisable": "touch /tmp/le-challenge-hooks-test/disabled"
+}

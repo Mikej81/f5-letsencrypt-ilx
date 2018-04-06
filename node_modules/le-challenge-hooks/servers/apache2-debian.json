@@ -1,0 +1,10 @@
+{
+  "hooksTemplate": "apache2-debian"
+, "hooksBind": "*"
+, "hooksPort": "443"
+, "hooksWebroot": "/var/www"
+, "hooksEnable": "ln -s {{{conf}}} /etc/apache2/sites-enabled"
+, "hooksPreReload": "apache2ctl configtest"
+, "hooksReload": "/etc/init.d/apache2 reload"
+, "hooksDisable": "rm /etc/apache2/sites-enabled/{{{token}}}.conf"
+}

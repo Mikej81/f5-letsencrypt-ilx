@@ -1,0 +1,13 @@
+<VirtualHost *:443>
+	ServerName 85dbe15d75ef9308c7ae0f33c7a324cc.6f4bf519a2ed2f3027bd33c140a4f9aa.acme.invalid
+
+	DocumentRoot /tmp
+	<Directory /tmp>
+		Order Allow,Deny
+		Deny from all
+	</Directory>
+
+	SSLEngine on
+	SSLCertificateFile    /tmp/le-challenge-apache-test/token-id.crt
+	SSLCertificateKeyFile /tmp/le-challenge-apache-test/token-id.key
+</VirtualHost>

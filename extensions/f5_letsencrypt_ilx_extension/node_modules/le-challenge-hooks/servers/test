@@ -1,0 +1,10 @@
+# vim: set ft=apache :
+Token: {{{token}}}
+Domain: {{{domain}}}
+Subject: {{{subject}}}
+Cert: {{{cert}}}
+Key: {{{privkey}}}
+Conf: {{{conf}}} # path to this file
+Bind: {{{bind}}}
+Port: {{{port}}}
+Webroot: {{{webroot}}}

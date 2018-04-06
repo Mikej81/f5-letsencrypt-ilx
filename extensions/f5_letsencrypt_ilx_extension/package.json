@@ -1,0 +1,44 @@
+{
+<<<<<<< HEAD
+  "BIG-IP-comments": [
+    "package.json is the standard npm (www.npmjs.org) package definition file.",
+    "For more information please see www.npmjs.org/doc/package.json.html. "
+  ],
+  "description": "A custom iRulesLX extension for BIG-IP",
+  "private": true,
+  "repository": {},
+  "engines": {
+    "node": "6.9.1"
+  },
+  "dependencies": {
+    "f5-nodejs": "0.0.3",
+    "greenlock": "^2.1.19",
+    "greenlock-cli": "^2.2.13",
+=======
+  "name": "f5-letsencrypt-ilx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "greenlock": "^2.1.19",
+    "greenlock-cli": "^2.2.13",
+    "install": "^0.11.0",
+>>>>>>> origin/master
+    "le-acme-core": "^2.1.2",
+    "le-challenge-fs": "^2.0.8",
+    "le-challenge-sni": "^2.0.1",
+    "le-sni-auto": "^2.1.1",
+    "le-store-certbot": "^2.0.5",
+<<<<<<< HEAD
+    "letsencrypt-cli": "^2.2.0"
+=======
+    "letsencrypt-cli": "^2.2.0",
+    "npm": "^5.8.0"
+>>>>>>> origin/master
+  }
+}

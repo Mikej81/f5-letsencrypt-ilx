@@ -1,0 +1,10 @@
+# vim: set ft=apache :
+Token: token-id
+Domain: example.com
+Subject: 85dbe15d75ef9308c7ae0f33c7a324cc.6f4bf519a2ed2f3027bd33c140a4f9aa.acme.invalid
+Cert: /tmp/le-challenge-hooks-test/token-id.crt
+Key: /tmp/le-challenge-hooks-test/token-id.key
+Conf: /tmp/le-challenge-hooks-test/token-id.conf # path to this file
+Bind: *
+Port: 443
+Webroot: /var/www
